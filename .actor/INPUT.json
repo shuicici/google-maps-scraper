@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "title": "Google Maps Scraper Input",
+    "type": "object",
+    "properties": {
+        "query": {
+            "type": "string",
+            "title": "Search Query",
+            "description": "What to search for (e.g., restaurants, coffee shops, gyms)",
+            "editor": "textfield"
+        },
+        "location": {
+            "type": "string",
+            "title": "Location",
+            "description": "Optional location (e.g., New York, London, Paris)",
+            "editor": "textfield"
+        },
+        "limit": {
+            "type": "integer",
+            "title": "Result Limit",
+            "description": "Maximum number of results to scrape",
+            "default": 20,
+            "minimum": 1,
+            "maximum": 100,
+            "editor": "number"
+        },
+        "language": {
+            "type": "string",
+            "title": "Language",
+            "description": "Language code (en, zh-CN, etc.)",
+            "default": "en",
+            "editor": "textfield"
+        }
+    },
+    "required": ["query"]
+}

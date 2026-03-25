@@ -1,0 +1,9 @@
+{
+    "actorSpecification": 1,
+    "name": "google-maps-scraper",
+    "version": "1.0",
+    "title": "Google Maps Places Scraper",
+    "description": "Extract business listings from Google Maps - restaurants, shops, services",
+    "categories": ["Business Data", "Lead Generation", "Marketing"],
+    "inputSchema": "INPUT.json"
+}
